@@ -12,8 +12,12 @@
         <link rel="stylesheet" href="css/fontawesome-all.min.css">
         <link rel="stylesheet" href="css/leaflet-measure.css">
         <style>
+        body {
+            margin: 0;
+        }
+
         #map {
-            width: 774px;
+            width: 100%;
             height: 793px;
         }
         /* This is the new part you are adding for your legend */
@@ -51,6 +55,14 @@
     	    display: none; /* Hides the element completely */
     	    padding: 0;
 	}
+
+    .leaflet-right {
+        right: 12px;
+    }
+
+    .leaflet-control-measure {
+        display: none;
+    }
         </style>
         <title></title>
     </head>
